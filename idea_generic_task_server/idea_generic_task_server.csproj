@@ -11,6 +11,7 @@
         <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
         <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="5.0.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+        <PackageReference Include="zentao.client" Version="1.0.0-dev.1" />
     </ItemGroup>
 
     <ItemGroup>
@@ -19,8 +20,5 @@
     <ItemGroup>
         <Folder Include="Core\" />
         <Folder Include="Docs" />
-    </ItemGroup>
-    <ItemGroup>
-      <ProjectReference Include="..\zentao_dotnet\zentao.client\zentao.client.csproj" />
     </ItemGroup>
 </Project>

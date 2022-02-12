@@ -6,7 +6,7 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["idea_generic_task_server/idea_generic_task_server.csproj", "idea_generic_task_server/"]
-RUN dotnet restore "idea_generic_task_serveridea_generic_task_server.csproj"
+RUN dotnet restore "idea_generic_task_server/idea_generic_task_server.csproj"
 COPY . .
 WORKDIR "/src/idea_generic_task_server"
 RUN dotnet build "idea_generic_task_server.csproj" -c Release -o /app/build

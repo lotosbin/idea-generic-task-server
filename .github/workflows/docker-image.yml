@@ -30,6 +30,6 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: .
-        file: ./idea-generic-task-server/Dockerfile
+        file: ./idea_generic_task_server/Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/idea-generic-task-server:latest
+        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/idea_generic_task_server:latest

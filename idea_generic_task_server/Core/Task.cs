@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace idea_generic_task_server.Core {
+﻿namespace idea_generic_task_server.Core {
     public class Task {
         public string id { get; set; }
         public string summary { get; set; }

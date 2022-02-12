@@ -1,0 +1,5 @@
+[submodule "zentao_dotnet"]
+	path = zentao_dotnet
+	url = git@github.com:lotosbin/zentao_dotnet.git
+	branch = master
+	shallow = true

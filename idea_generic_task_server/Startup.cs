@@ -5,8 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using zentao.client;
-using zentao.client.core;
+using zentao.client.Core;
+using zentao.client.Core.AspNetCore;
 
 namespace idea_generic_task_server {
     public class Startup {
@@ -14,18 +14,16 @@ namespace idea_generic_task_server {
             Configuration = configuration;
         }
 
+        // ReSharper disable once InconsistentNaming
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services) {
-
-            services.AddAutoMapper(typeof(Task),typeof(TaskItem));
+            services.AddAutoMapper(typeof(Task), typeof(TaskItem));
             services.AddMemoryCache();
-            
+            services.AddZentaoClient();
             services.AddControllers();
-            services.AddSwaggerGen(c => {
-                c.SwaggerDoc("v1", new OpenApiInfo {Title = "idea_generic_task_server", Version = "v1"});
-            });
+            services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "idea_generic_task_server", Version = "v1"}); });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

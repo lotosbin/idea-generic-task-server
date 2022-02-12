@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1700.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zentao.client", "zentao.client\zentao.client.csproj", "{40E967D9-00F8-4C1D-84F7-A8BDF9CC1873}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zentao.client.tests", "zentao_dotnet\zentao.client.tests\zentao.client.tests.csproj", "{BED30DD4-0268-4C2A-A516-0800E7839087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zentao.client.tests", "zentao.client.tests\zentao.client.tests.csproj", "{FCE7B9ED-08FB-4546-A301-246DABF1C756}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zentao.client", "zentao_dotnet\zentao.client\zentao.client.csproj", "{2ACD57F6-CB5B-4327-A8E4-18ECF35AEC0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xtask.api", "xtask.api\xtask.api.csproj", "{1C2DEE7A-C07C-4531-991B-22BF13AFED51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "idea_generic_task_server", "idea_generic_task_server\idea_generic_task_server.csproj", "{7EF5C005-7359-4637-AFEE-D9FF1F442DB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{40E967D9-00F8-4C1D-84F7-A8BDF9CC1873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40E967D9-00F8-4C1D-84F7-A8BDF9CC1873}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40E967D9-00F8-4C1D-84F7-A8BDF9CC1873}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40E967D9-00F8-4C1D-84F7-A8BDF9CC1873}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FCE7B9ED-08FB-4546-A301-246DABF1C756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FCE7B9ED-08FB-4546-A301-246DABF1C756}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FCE7B9ED-08FB-4546-A301-246DABF1C756}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FCE7B9ED-08FB-4546-A301-246DABF1C756}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C2DEE7A-C07C-4531-991B-22BF13AFED51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C2DEE7A-C07C-4531-991B-22BF13AFED51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C2DEE7A-C07C-4531-991B-22BF13AFED51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C2DEE7A-C07C-4531-991B-22BF13AFED51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED30DD4-0268-4C2A-A516-0800E7839087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED30DD4-0268-4C2A-A516-0800E7839087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED30DD4-0268-4C2A-A516-0800E7839087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED30DD4-0268-4C2A-A516-0800E7839087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACD57F6-CB5B-4327-A8E4-18ECF35AEC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACD57F6-CB5B-4327-A8E4-18ECF35AEC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACD57F6-CB5B-4327-A8E4-18ECF35AEC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACD57F6-CB5B-4327-A8E4-18ECF35AEC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF5C005-7359-4637-AFEE-D9FF1F442DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF5C005-7359-4637-AFEE-D9FF1F442DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF5C005-7359-4637-AFEE-D9FF1F442DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF5C005-7359-4637-AFEE-D9FF1F442DB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

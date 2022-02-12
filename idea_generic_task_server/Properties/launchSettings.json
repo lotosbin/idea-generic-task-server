@@ -25,9 +25,7 @@
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "ASPNETCORE_ZENTAO_HOST":"http://61.190.4.70:56039/zentao",
-        "ASPNETCORE_ZENTAO_SESSION_ID":"fgiekrbkpqvuulu8kc3i24p6b0",
-        "ASPNETCORE_ZENTAO_SESSION_NAME":"zentaosid"
+        "ASPNETCORE_ZENTAO_HOST":"https://demo.zentao.pm/"
       }
     }
   }

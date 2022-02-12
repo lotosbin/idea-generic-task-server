@@ -1,6 +1,6 @@
 using AutoMapper;
 using idea_generic_task_server.Core;
-using zentao.client;
+using zentao.client.Core;
 
 namespace idea_generic_task_server {
     public class TaskProfile : Profile {

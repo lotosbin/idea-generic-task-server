@@ -1,9 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <RootNamespace>idea_generic_task_server</RootNamespace>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <LangVersion>10</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
@@ -20,6 +21,6 @@
         <Folder Include="Docs" />
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\zentao.client\zentao.client.csproj" />
+      <ProjectReference Include="..\zentao_dotnet\zentao.client\zentao.client.csproj" />
     </ItemGroup>
 </Project>
